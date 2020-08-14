@@ -8,13 +8,14 @@ $(document).ready(function(){
             method: 'GET'
         }).then(function(response){
             console.log(response)
-            $(".mvtitle").text(response.Title)
+            $("#mvtitle").text(response.Title)
             // $(".mvtitle").addClass(response.Title)
-            $(".mvsummary").text(response.Plot)
-            $(".mvactors").text(response.Actors)
-            $(".mvdirector").text(response.Director)
-            $(".mvrating").text(response.Rated)
-            $(".mvposter").attr('src', response.Poster)
+            $("#mvsummary").text(response.Plot)
+            $("#mvactors").text(response.Actors)
+            $("#mvduration").text(response.Duration)
+            $("#mvdirector").text(response.Director)
+            $("#mvrating").text(response.Rated)
+            $("#mvposter").attr('src', response.Poster)
         })
     
     })
