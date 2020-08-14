@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $(".mvdisplay").hide();
     $("#go").click(function(event){
         event.preventDefault();
         var movie = $("#moviething").val().trim()
@@ -17,8 +18,9 @@ $(document).ready(function(){
             $("#mvrating").text(response.Rated)
             $("#mvposter").attr('src', response.Poster)
         })
-    
+        $(".mvdisplay").show();
     })
 
-
+    
 })
+
