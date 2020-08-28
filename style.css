@@ -14,6 +14,13 @@
     color: darkslategray;
 }
 
+.minidisc {
+    font-size: 11px;
+    text-align: center;
+    font-style: italic;
+    color: darkslategray;
+}
+
 .titlebutbetter {
     font-family: 'Underdog', cursive;
     font-size: 40px;
@@ -28,11 +35,18 @@
 }
 
 .header {
+    /* font-weight: bold;
+    font-size: 15px;
+    color: rgb(16, 87, 96);
+    margin-left: 50px;
+    padding-right: 50px;
+    margin: 80px 0px; */
     font-weight: bold;
     font-size: 15px;
     color: rgb(16, 87, 96);
     margin-left: 50px;
-    padding-right: 310px;
+    padding-right: 50px;
+    margin: 5px 0px;
 }
 
 .mvdisplay {
@@ -42,13 +56,19 @@
     bottom: 0;
 }
 
+.mvimgdisplay {
+    margin-bottom: 50px;
+    background-color: rgb(240, 251, 255);
+    display: flex;
+    border-radius: 20px;
+}
+
 #mvposter {
     margin-right: auto;
-    margin-right: 60px;
+    /* margin-right: 60px; */
     margin-left: auto;
     height: auto;
-    width: 30%;
-    float: left;
+    width: 100%;
 }
 
 .data {
